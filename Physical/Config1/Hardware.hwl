@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="03/28/2024 13:36:28" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1382" Type="X20CP1382" X="100" Y="100" />
+    <Module Name="X3" Type="X3" X="251" Y="103" />
+    <Module Name="X20TB1F2" Type="X20TB1F" X="251" Y="126" />
+    <Module Name="X2" Type="X2" X="238" Y="103" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="238" Y="126" />
+    <Module Name="X1" Type="X1" X="225" Y="103" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="225" Y="126" />
+    <Module Name="8I74xxxxxxx.01P-1" Type="8I74xxxxxxx.01P-1" X="264" Y="252" />
+  </Modules>
+  <Links>
+    <Link From="X20CP1382" To="8I74xxxxxxx.01P-1" FromPort="IF3" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="153" Y="188" />
+      <Point X="153" Y="188" />
+      <Point X="153" Y="203" />
+      <Point X="153" Y="465" />
+      <Point X="272" Y="465" />
+      <Point X="272" Y="453" />
+      <Point X="272" Y="411" />
+      <Point X="272" Y="411" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

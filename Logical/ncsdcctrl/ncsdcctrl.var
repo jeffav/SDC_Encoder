@@ -1,0 +1,3 @@
+VAR
+	ENCOD_OK : BOOL;
+END_VAR

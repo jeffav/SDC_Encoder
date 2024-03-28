@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Parameter Name="SERVO_V_MAX_OUTPUT" ID="64201" Value="546116.666666667" />
+  </Root>
+</AcoposParameterTable>

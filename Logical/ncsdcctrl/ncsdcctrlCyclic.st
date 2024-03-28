@@ -1,0 +1,21 @@
+
+PROGRAM _CYCLIC
+        
+(* ### BEGIN gAxis01 ### *)
+        
+(* life counter emulation of digital inputs *)
+        gAxis01_DiDoIf.iLifeCntReference := gAxis01_DiDoIf.iLifeCntReference + 1;
+        gAxis01_DiDoIf.iLifeCntNegHwEnd  := gAxis01_DiDoIf.iLifeCntNegHwEnd  + 1;
+	gAxis01_DiDoIf.iLifeCntPosHwEnd  := gAxis01_DiDoIf.iLifeCntPosHwEnd  + 1;
+	
+	gAxis01_EncIF1.iLifeCnt := gAxis01_EncIF1.iLifeCnt +1;
+	
+//	ENCOD_OK := encoder's moduleOk
+//	gAxis01_EncIF1.iActPos := Actual Position value
+//	gAxis01_EncIF1.iActTime := ActTime;
+	
+	
+(* ### END gAxis01 ### *)
+
+END_PROGRAM
+
